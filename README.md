@@ -40,6 +40,7 @@ Example:
 
 newElement.textContent = "This is a new paragraph.";
 
+
 Step 3:Add attributes like id, class, or others using setAttribute() or direct property assignment.
 
 Example:
