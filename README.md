@@ -1,6 +1,7 @@
 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
 Answer:
+
 Differences between getElementById, getElementsByClassName, and querySelector / querySelectorAll
 
 getElementById() is used to select a single HTML element based on its unique id attribute.
@@ -30,17 +31,19 @@ Step 1: Create a New Element
 Use the document.createElement() method to create a new HTML element.
 
 Example:
+
 let newElement = document.createElement("p");
 
 Step 2: Add text or HTML content using textContent, innerText, or innerHTML.
 
 Example:
+
 newElement.textContent = "This is a new paragraph.";
 
-Step 3: Set Attributes 
+Step 3:Add attributes like id, class, or others using setAttribute() or direct property assignment.
 
-Add attributes like id, class, or others using setAttribute() or direct property assignment.
 Example:
+
 newElement.id = "para1";
 
 Step 4: Choose the existing element where the new element will be inserted.
@@ -50,7 +53,9 @@ let parent = document.body;
 
 Step 5: Insert the New Element into the DOM
 Use methods like appendChild(), append(), or insertBefore() to insert the element.
+
 Example:
+
 parent.appendChild(newElement);
 
 3. What is Event Bubbling? And how does it work?
@@ -69,11 +74,15 @@ So, the event travels from the inside element to the outer elements.
 4. What is Event Delegation in JavaScript?Why is it useful?
 
 Answer:
+
 Event Delegation is a technique in JavaScript where One parent handles events for all its child elements.
 
 It Useful --
+
 a.It improves performance 
+
 b.It works for dynamically added elements 
+
 c.It is useful for cleaner and simpler code 
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
@@ -81,7 +90,9 @@ c.It is useful for cleaner and simpler code
 Answer:
 
 Difference between preventDefault() and stopPropagation() methods---
+
 a.preventDefault() is used to block the browser’s default behavior.
+
 b.And stopPropagation() is used to block the event from reaching other elements.
 
 
