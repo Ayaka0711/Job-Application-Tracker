@@ -85,6 +85,7 @@ b.It works for dynamically added elements
 
 c.It is useful for cleaner and simpler code 
 
+
 5. What is the difference between preventDefault() and stopPropagation() methods?
 
 Answer :
