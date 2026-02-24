@@ -71,6 +71,7 @@ then to the grandparent, and continues moving upward until it reaches the top of
 
 So, the event travels from the inside element to the outer elements.
 
+
 4. What is Event Delegation in JavaScript?Why is it useful?
 
 Answer :
